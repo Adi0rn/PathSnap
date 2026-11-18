@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Local data and secrets
+data/raw/
+data/processed/
+data/private/
+*.env
+
+# Model artifacts / large outputs (track selected deliverables intentionally)
+models/*.joblib
+models/*.pkl
+models/*.pt
+models/*.onnx
+results/tmp/
+results/cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
