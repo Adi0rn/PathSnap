@@ -5,6 +5,9 @@ __pycache__/
 venv/
 .env
 .ipynb_checkpoints/
+.coverage
+.pytest_cache/
+docs/*.txt
 
 # Local data and secrets
 data/raw/
@@ -14,6 +17,7 @@ data/private/
 
 # Model artifacts / large outputs (track selected deliverables intentionally)
 models/*.joblib
+!models/tuned_model.joblib
 models/*.pkl
 models/*.pt
 models/*.onnx
